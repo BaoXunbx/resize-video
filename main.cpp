@@ -8,7 +8,7 @@ using namespace cv;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	
-	VideoCapture capture1("../.mp4");//读入左路视频
+	VideoCapture capture1("../.mp4");//读入视频
 	Mat image01;
 	capture1 >> image01;
 	resize(image01, image01, Size(3840 ,1280), 0, 0, INTER_LINEAR);
